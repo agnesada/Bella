@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+
+
+.logoSize{
+    width: 70%;
+}
+
+.nav-link{
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    color: #252B42 !important;
+    font-size: 18px;
+}
+
+.activeLink{
+    font-weight: 700 !important;
+    color: #FA4A0C !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar{
+    padding: 0 !important;
+}

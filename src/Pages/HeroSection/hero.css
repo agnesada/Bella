@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+.ctaImage{
+    width: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+  p,h1,.buttonContainer{
+    text-align: center;
+    color: #fff;
+  }
+
+  h1{
+    font-size: 70px;
+  }
+
+  p{
+    font-size: 28px;
+  }
+
+  .mini{
+    font-weight: 500;
+  }
+
+  .buttonSet1{
+    margin: none;
+    outline: none;
+    padding: 16px 58px;
+    border-radius: 50px;
+    color: #fff;
+    background: #FA4A0C;
+    box-shadow: none;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .buttonSet2{
+    margin: none;
+    outline: none;
+    padding: 16px 58px;
+    border-radius: 50px;
+    color: #fff;
+    background: transparent;
+    box-shadow: none;
+    font-weight: 500;
+    border: 2px solid #fff;
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 768px){
+    .heroimg{
+        display: none !important;
+    }
+
+    p,h1,.buttonContainer{
+        text-align: center;
+        color: #252B42;
+    }
+    h1{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400; 
+    }
+
+    .buttonSet2{
+    color: #FA4A0C;
+    background: transparent;
+    border: 2px solid #FA4A0C;
+    }
+    
+  }
