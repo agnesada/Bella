@@ -1,48 +1,67 @@
-.cta-foot{
-    background-image: url(../../assets/ctaImage-Footer.svg);
-    height: 100vh;
-    text-align: center;
-    width: auto;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-top: 85px;
+.footer-cta {
+  background-image: url(../../assets/ctaImage-Footer.svg);
+  text-align: center;
+  width: auto;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 85px;
 }
 
-.footerHeader{
-    font-size: 60px;
+.footerHeader {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer_para {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffff;
+}
+
+.footer_button1 {
+  margin: none;
+  outline: none;
+  padding: 16px 58px;
+  border-radius: 50px;
+  color: #fff;
+  background: #fa4a0c;
+  box-shadow: none;
+  border: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer_button2 {
+  margin: none;
+  outline: none;
+  padding: 16px 58px;
+  border-radius: 50px;
+  color: #fff;
+  background: transparent;
+  box-shadow: none;
+  font-weight: 700;
+  border: 2px solid #fff;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .footerHeader {
+    font-size: 20px;
     font-weight: 700;
-    color: #fff; 
-}
+    color: #000;
+  }
 
-.footer_para{
-    font-size: 24px;
+  .footer_para {
+    font-size: 10px;
     font-weight: 500;
-    color: #ffff;
+    color: #000;
   }
 
-  .footer_button1{
-    margin: none;
-    outline: none;
-    padding: 16px 58px;
-    border-radius: 50px;
-    color: #fff;
-    background: #FA4A0C;
-    box-shadow: none;
-    border: 0;
-    font-size: 16px;
-    font-weight: 700;
+  .footer-cta {
+    background-image: none;
+    background-color: #252b42;
+    height: 100%;
   }
-
-  .footer_button2{
-    margin: none;
-    outline: none;
-    padding: 16px 58px;
-    border-radius: 50px;
-    color: #fff;
-    background: transparent;
-    box-shadow: none;
-    font-weight: 700;
-    border: 2px solid #fff;
-    font-size: 16px;
-  }
+}

@@ -8,16 +8,17 @@ import FeaturesImages3 from "../../assets/mockup3.svg";
 function features() {
   return (
     <div>
-      <div className="container">
+      <div className="container features">
         <div className="imageDiv ">
+          <h1 className="HIW2">How the app works</h1>
           <img className="feat-Line" src={FeatureLine} />
           <h1 className="HIW">How the app works</h1>
         </div>
 
-        <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div className="row Flex_Direction">
+          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 imageOrder">
             <div>
-              <img src={FeaturesImages1} />
+              <img className="imageSize" src={FeaturesImages1} />
             </div>
           </div>
 
@@ -45,15 +46,15 @@ function features() {
 
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <div>
-              <img src={FeaturesImages2} />
+              <img className="imageSize" src={FeaturesImages2} />
             </div>
           </div>
         </div>
 
         <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 imageOrder">
             <div>
-              <img src={FeaturesImages3} />
+              <img className="imageSize" src={FeaturesImages3} />
             </div>
           </div>
 

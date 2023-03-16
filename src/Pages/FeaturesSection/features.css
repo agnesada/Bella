@@ -6,6 +6,9 @@
     font-family: "Montserrat", sans-serif ;
 }
 
+.features{
+    margin-top: 550px;
+}
 
 .imageDiv{
     margin-top: 100px;
@@ -16,7 +19,7 @@
     width: 100%;
 }
 
-.HIW{
+.HIW, .HTW2{
     color: #000;
     font-size: 40px;
     font-weight: 600;
@@ -24,8 +27,16 @@
     font-family: "Poppins", sans-serif;
 }
 
+.HIW2{
+    display: none;
+}
+
+.imageSize{
+    width: 100%;
+}
+
 .margin-auto{
-    margin: 25% auto;
+    margin: 21% auto;
 }
 
 .paraHeader{
@@ -50,4 +61,42 @@
 }
 
 
+@media screen and (max-width: 900px)  {
+    .features{
+        margin-top: 200px;
+    }
+
+    .imageDiv{
+        margin-top: 0px;
+    }
+
+    .HIW2{
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 0;
+        display: block;
+    }
+
+    .HIW{
+        display: none;
+    }
+
+    .imageOrder{
+        order: 2;
+    }
+
+    .imageSize{
+        width: 100%;
+        padding: 0;
+    }
+
+    .imageOrder, .margin-auto{
+        margin: -5%;
+    }
+
+    .Flex_Direction, .featureHeader, .featurePara, .paraHeader{
+        text-align: center;
+    }
+
+}
 

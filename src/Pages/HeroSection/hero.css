@@ -1,121 +1,189 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
 
-*{
-    font-family: "Montserrat", sans-serif ;
+* {
+  font-family: "Montserrat", sans-serif;
 }
 
-.hero-cta{
-    background-image: url(../../assets/heroImage1.png);
-    height: 100vh;
-    text-align: center;
-    width: auto;
-    height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding-top: 85px;
+.hero-cta {
+  background-image: url(../../assets/heroImage1.png);
+  text-align: center;
+  width: auto;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 85px;
 }
 
-  .heroHeader{
-    font-size: 60px;
-    font-weight: 700;
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    
+
+.heroHeader {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.para {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffff;
+}
+
+.paraMini {
+  font-weight: 700;
+  color: #fff;
+  font-size: 24px;
+}
+
+.buttonSet1 {
+  margin: none;
+  outline: none;
+  padding: 16px 58px;
+  border-radius: 50px;
+  color: #fff;
+  background: #fa4a0c;
+  box-shadow: none;
+  border: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.buttonSet2 {
+  margin: none;
+  outline: none;
+  padding: 16px 58px;
+  border-radius: 50px;
+  color: #fff;
+  background: transparent;
+  box-shadow: none;
+  font-weight: 700;
+  border: 2px solid #fff;
+  font-size: 16px;
+}
+
+.positionRelative {
+  position: relative;
+}
+.phoneMockup {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 500px;
+}
+
+@media screen and (max-width: 900px) {
+  
+  .positionRelative {
+    position: 0;
+  }
+  .phoneMockup {
+    position: 0;
+    top: 650px;
+  }
+  
+  .hero-cta {
+    background-image: none !important;
   }
 
-  .para{
+  .heroHeader,
+  .buttonContainer {
+    text-align: center;
+    color: #252b42;
+  }
+
+  .para {
     font-size: 24px;
     font-weight: 500;
-    color: #ffff;
+    color: #737373;
   }
 
-  .paraMini{
-    font-weight: 700;
-    color: #fff;
-    font-size: 24px;
+  .buttonContainer{
+    margin-top: 0;
+  }
 
+  .heroHeader {
+    font-size: 32px;
+    font-weight: 700;
   }
 
   .buttonSet1{
-    margin: none;
-    outline: none;
-    padding: 16px 58px;
-    border-radius: 50px;
-    color: #fff;
-    background: #FA4A0C;
-    box-shadow: none;
-    border: 0;
-    font-size: 16px;
-    font-weight: 700;
+    margin-right: 0!important;
+    padding: 16px 80px;
   }
 
-  .buttonSet2{
-    margin: none;
-    outline: none;
-    padding: 16px 58px;
-    border-radius: 50px;
-    color: #fff;
+  .buttonSet2 {
+    color: #fa4a0c;
     background: transparent;
-    box-shadow: none;
-    font-weight: 700;
-    border: 2px solid #fff;
-    font-size: 16px;
+    border: 2px solid #fa4a0c;
+    margin-top: 16px;
+    padding: 16px 80px;
   }
 
-  .positionRelative{
-    position: relative;
+  br {
+    display: none;
   }
-  .phoneMockup{
-    position: absolute;
+
+  .paraMini {
+    color: #737373;
+    font-size: 700;
+  }
+
+  .ctaImage2 {
     width: 100%;
+  }
+
+}
+
+@media screen and(min-width: 999px) and (max-width: 1999px) {
+  .heroHeader {
+    font-size: 32px;
+  }
+
+  .para,
+  .paraMini {
+    font-size: 16px;
+  }
+
+  .buttonSet1 {
+    padding: 20px 58px;
+    font-size: 20px;
+  }
+
+  .buttonSet2 {
+    padding: 20px 58px;
+    font-size: 20px;
+  }
+
+  .phoneMockup {
     text-align: center;
+    top: 700px;
   }
 
-  @media screen and (max-width: 920px){
-    .heroimg{
-        display: none !important;
-    }
+}
 
-    .para2,.heroHeader,.buttonContainer{
-        text-align: center;
-        color: #252B42;
-    }
-
-    .heroHeader{
-        font-size: 38px;
-        font-weight: 700;
-        
-    }
-    .para2{
-        font-size: 16px;
-        font-weight: 500; 
-    }
-
-    .buttonSet2{
-    color: #FA4A0C;
-    background: transparent;
-    border: 2px solid #FA4A0C;
-    }
-
-    br{
-        display: none;
-    }
-
-    .para2{
-        color: #737373;
-        font-size: 300;
-        font-size: 28px;
-    }
-
-    .paraMini{
-        color: #737373;
-        font-size: 700; 
-    }
-
-    .ctaImage2{
-        width: 100%;
-    }
-    
+@media screen and (min-width: 2000px) and (max-width: 3000px) {
+  .heroHeader {
+    font-size: 100px;
   }
+
+  .para,
+  .paraMini {
+    font-size: 32px;
+  }
+
+  .buttonSet1 {
+    padding: 24px 58px;
+    font-size: 24px;
+  }
+
+  .buttonSet2 {
+    padding: 24px 58px;
+    font-size: 24px;
+  }
+
+  .phoneMockup {
+    text-align: center;
+    top: 700px;
+  }
+}
