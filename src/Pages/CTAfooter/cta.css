@@ -1,12 +1,12 @@
 .footer-cta {
-  background-image: url(../../assets/ctaImage-Footer.svg);
+  background-image: url(../../assets/cta_Image_foot.png);
+  background-size: 100%;
   text-align: center;
-  width: auto;
   height: 100vh;
-  background-size: contain;
   background-repeat: no-repeat;
-  padding-top: 85px;
+  padding-top: 100px;
 }
+
 
 .footerHeader {
   font-size: 60px;
@@ -20,11 +20,15 @@
   color: #ffff;
 }
 
-.footer_button1 {
+.paraSmallDevice{
+  display: none;
+}
+
+.footer_button1, .buttonSet1_2 {
   margin: none;
   outline: none;
   padding: 16px 58px;
-  border-radius: 50px;
+  border-radius: 8px;
   color: #fff;
   background: #fa4a0c;
   box-shadow: none;
@@ -33,11 +37,11 @@
   font-weight: 700;
 }
 
-.footer_button2 {
+.footer_button2, .buttonSet2_2 {
   margin: none;
   outline: none;
   padding: 16px 58px;
-  border-radius: 50px;
+  border-radius: 8px;
   color: #fff;
   background: transparent;
   box-shadow: none;
@@ -46,22 +50,50 @@
   font-size: 16px;
 }
 
+.buttonSet1_2{
+  padding: 16px 16px;
+}
+
+
+.button_Container2{
+  display: none;
+}
+
+
+
 @media screen and (max-width: 900px) {
   .footerHeader {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 700;
-    color: #000;
+    color: #ffffff;
   }
 
   .footer_para {
-    font-size: 10px;
+    display: none;
+  }
+
+  .paraSmallDevice{
+    display: block;
+    font-size: 16px;
     font-weight: 500;
-    color: #000;
+    color: #ffffff;
   }
 
   .footer-cta {
     background-image: none;
     background-color: #252b42;
     height: 100%;
+  }
+
+ .footer_button1, .footer_button2{
+  display: none;
+ }
+
+  .button_Container2{
+    display: block;
+  }
+
+  .footer-cta{
+    padding-bottom: 20%;
   }
 }

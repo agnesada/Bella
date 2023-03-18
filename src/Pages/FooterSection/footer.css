@@ -17,19 +17,28 @@
 }
 
 .align{
-    align-items: normal;
+    margin-top: -6%;
 }
 
 .footerLogo{
     width: 40%;
 }
 
-.align{
-    margin-top: -6%;
-}
 
-@media screen and (mix-width: 900px) {
+@media screen and (max-width: 900px) {
     .align{
-        margin-top: 0;
-    }   
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+
+    .copyright{
+        font-weight: 700;
+        font-size: 12px;
+        margin-top: 3%;
+    }
+
+    .footerLogo{
+        display: none;
+    }
 }
