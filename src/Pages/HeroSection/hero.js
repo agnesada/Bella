@@ -19,7 +19,7 @@ const hero = () => {
       </div>
 
       <div className="phoneMockup">
-        <img className="ctaImage2" src={HeroImage2} />
+        <img alt="hero" className="ctaImage2" src={HeroImage2} />
       </div>
     </div>
   );

@@ -11,14 +11,14 @@ function features() {
       <div className="container features">
         <div className="imageDiv ">
           <h1 className="HIW2">How the app works</h1>
-          <img className="feat-Line" src={FeatureLine} />
+          <img alt="line" className="feat-Line" src={FeatureLine} />
           <h1 className="HIW">How the app works</h1>
         </div>
 
         <div className="row Flex_Direction">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 imageOrder">
             <div>
-              <img className="imageSize" src={FeaturesImages1} />
+              <img alt="feature" className="imageSize" src={FeaturesImages1} />
             </div>
           </div>
 
@@ -46,7 +46,7 @@ function features() {
 
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6">
             <div>
-              <img className="imageSize" src={FeaturesImages2} />
+              <img alt="feature" className="imageSize" src={FeaturesImages2} />
             </div>
           </div>
         </div>
@@ -54,7 +54,7 @@ function features() {
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-6 col-xl-6 imageOrder">
             <div>
-              <img className="imageSize" src={FeaturesImages3} />
+              <img alt="feature" className="imageSize" src={FeaturesImages3} />
             </div>
           </div>
 

@@ -9,11 +9,11 @@ const footer = () => {
       <div className="container align">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4 ">
-            <img className="footerLogo" src={Logo} />
+            <img alt="logo" className="footerLogo" src={Logo} />
           </div>
 
           <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-            <img className="socialsSize" src={Social} />
+            <img alt="socials" className="socialsSize" src={Social} />
           </div>
 
           <div className="col-sm-12 col-md-12 col-lg-4 col-xl-4">
