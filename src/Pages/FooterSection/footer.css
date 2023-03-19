@@ -42,3 +42,45 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 999px) and (max-width: 1999px) {
+    .align{
+        margin-top: -100px;
+        max-width: 80%;
+    }
+
+    .copyright{
+        font-size: 18px;
+    }
+    
+    .socialsSize{
+        width: 30%;
+    }
+    
+    .footerLogo{
+        width: 30%;
+        margin-top: -30px;
+    } 
+  
+  }
+
+  @media screen and (min-width: 2000px) and (max-width: 3000px) {
+    .align{
+        margin-top: -300px;
+        max-width: 80%;
+    }
+
+    .copyright{
+        font-size: 30px;
+    }
+    
+    .socialsSize{
+        width: 30%;
+    }
+    
+    .footerLogo{
+        width: 30%;
+        margin-top: -30px;
+    } 
+  
+  }

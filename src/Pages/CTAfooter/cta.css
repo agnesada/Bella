@@ -97,3 +97,24 @@
     padding-bottom: 20%;
   }
 }
+
+
+@media screen and (min-width: 2000px) and (max-width: 3000px) {
+  .footer-cta {
+    padding-top: 250px;
+  }
+
+  .footerHeader {
+    font-size: 100px;
+}
+.footer_para {
+  font-size: 32px;
+ 
+}
+
+.footer_button1, .footer_button2{
+  padding: 30px 68px;
+  font-size: 32px;
+}
+
+}
